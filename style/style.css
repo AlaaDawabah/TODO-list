@@ -1,0 +1,68 @@
+@font-face{
+    font-family: Raleway-Light;
+    src:url("../fonts/helvetica-neue-lt-std-cufonfonts/Raleway-Light.ttf")
+}
+body{
+    font-family: Raleway-Light;
+    background-color: rgb(13, 65, 60);
+}
+.container{
+    background-color: rgb(214, 255, 252);
+    width:360px;
+    margin:0 auto;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    border-radius: 10px;
+}
+.content{
+    
+    background-color:rgb(214, 255, 252);
+}
+.completed{
+    color:gray;
+    text-decoration: line-through;
+}
+
+h1{
+   
+    color:white;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: normal;
+    
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    background-color: #fff;
+    padding: 20px 0;
+}
+li:nth-child(2n-1){
+    background-color: rgb(214, 255, 252);
+}
+.d-flex{
+ background-color: rgb(38, 187, 175);
+}
+.d-flex img{
+   width:30px;
+   height: 30px;
+}
+span{
+    background-color:  rgb(144, 9, 9);
+    margin-right: 20px;
+    text-align: center;
+    width:40px;
+    display:none;    
+}
+span img{
+    width:20px;
+    height: 25px;
+}
+li:hover span{
+    display: inline-block;
+    transition: all 1s ease-in-out;
+}
